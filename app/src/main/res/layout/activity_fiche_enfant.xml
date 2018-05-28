@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Activity_fiche_enfant">
+
+
+    <TextView android:id="@+id/activity_choix_enfant_nounou_txt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_gravity="center"
+        android:text="Nom de l'enfant"
+        android:background="@color/colorAccent" />
+
+    <Button android:id="@+id/activity_fiche_enfant_message_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@color/colorPrimary"
+        android:padding="40dp"
+        android:layout_marginTop="40dp"
+        android:text="Messagerie" />
+
+    <Button android:id="@+id/activity_ficeh_enfant_photos_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@color/colorPrimary"
+        android:padding="40dp"
+        android:layout_marginTop="40dp"
+        android:text="photos" />
+
+    <Button android:id="@+id/activity_fiche_enfant_planning_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@color/colorPrimary"
+        android:padding="40dp"
+        android:layout_marginTop="40dp"
+        android:text="planning" />
+
+</LinearLayout>
